@@ -3,6 +3,8 @@ import './navbar.css';
 import { CiSearch } from 'react-icons/ci'
 import { BsPlusCircle, BsGear } from "react-icons/bs";
 import { MdAccessTime } from "react-icons/md";
+import Gear from '../../images/mdi_gear.png'
+import Add from '../../images/add-circle.png'
 
 const NavBar = () => {
   return (
@@ -35,8 +37,9 @@ const NavBar = () => {
               </div>
             </div>
             <div className='evms__navbar_tools-container'>
-              <div className='evms__navbar_tools add'><BsPlusCircle /></div>
-              <div className='evms__navbar_tools  gear'><BsGear/></div>
+              <div className='evms__navbar_tools'> <img src={Add} alt="add" /></div>
+             
+              <div className='evms__navbar_tools  gear'><img src={Gear} alt="gear" /></div>
             </div>
           
       

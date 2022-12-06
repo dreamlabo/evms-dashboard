@@ -156,6 +156,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .evms__navbar_tools {    
@@ -171,6 +172,12 @@
 .evms__navbar_tools + .evms__navbar_tools {
     margin-left: .5rem;
    
+}
+
+.evms__navbar_tools img {
+    width: 20px;
+    height: auto;
+    padding-right: 1px;
 }
 
 .evms__navbar_tools.add {
