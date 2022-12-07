@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css';
 
-import { NavBar } from './components'
+import { NavBar, MainHeading } from './components'
 
 const App = () => {
   return (
     <div>
         <NavBar />
-        {/* <h1>EVMS Dashboard</h1> */}
+        <MainHeading />
     </div>
   )
 }
