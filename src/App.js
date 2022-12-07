@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         <NavBar />
-        <h1>EVMS Dashboard</h1>
+        {/* <h1>EVMS Dashboard</h1> */}
     </div>
   )
 }
