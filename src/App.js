@@ -1,9 +1,14 @@
 import React from 'react'
 import './App.css';
 
+import { NavBar } from './components'
+
 const App = () => {
   return (
-    <h1>EVMS Dashboard</h1>
+    <div>
+        <NavBar />
+        {/* <h1>EVMS Dashboard</h1> */}
+    </div>
   )
 }
 

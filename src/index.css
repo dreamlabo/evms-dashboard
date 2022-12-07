@@ -9,4 +9,16 @@
     --clr-blue: #563CFB;
     --clr-purple: #9747FF;
     --clr-green: #01796F;
+
+    --bkgd-clr-white: #fff;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+
+body {
+    background-color: #F4F4F4;
 }
