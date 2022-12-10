@@ -1,0 +1,71 @@
+.evms__icon-wrapper {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
+.evms__info-card-small_container {
+    width: 260px;
+    height: 352px;
+    /* position: relative; */
+    background-color: white;
+    /* margin: 1rem; */
+    border-radius: 20px;
+    
+}
+
+.evms__info-card-small_container + .evms__info-card-small_container {
+    margin-left: 1rem;
+}
+
+.evms__info-card-small_heading-box {
+    /* position: absolute; */
+    height: 120px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 4px 5px 0px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.evms__info-card-small_heading-box_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.evms__info-card-small_heading-box_title h1 {
+    margin-left: 1rem;
+    opacity: .7;
+}
+
+.evms__info-card-small_heading {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.evms__info-cars-small_amount {
+    font-size: 2rem;
+}
+
+.evms__info-card-small_lower-box {
+    padding: 2rem 1rem;
+}
+
+.evms__info-card-small_lower-box_text:first-of-type {
+    margin-bottom: 3.2rem;
+}
+
+.evms__info-card-small_lower-box_text p {
+    color: blue;
+}
