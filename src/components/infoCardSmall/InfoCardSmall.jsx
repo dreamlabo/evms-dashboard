@@ -15,7 +15,7 @@ const InfoCardSmall = ({title, icon, titleValue, descOne, descOneValue, descTwo,
       <div style={{background: actColor, boxShadow: boxShadow}} className="evms__info-card-small_heading-box">
         <div className="evms__info-card-small_heading-box_title">
           <div  className="evms__icon-wrapper">
-            <img src={icon} alt="icon" />
+            <img className='evms__icon_one' src={icon} alt="icon" />
           </div>
           <h1 className="evms__info-card-small_heading">{title}</h1>
         </div>

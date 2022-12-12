@@ -1,37 +1,27 @@
-.evms__icon-wrapper {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.); 
-}
-
-.evms__icon-wrapper img {
+.evms__icon_one {
     display: block;
-    margin-right: .00rem;
-    height: 30px;
-    width: 30px;
-    opacity: .7;
+    /* margin-right: .00rem; */
+    height: 18px;
+    width: 18px;
+    opacity: .9;
 }
 
 .evms__info-card-small_container {
-    width: 260px;
-    height: 352px;
+    width: 200px;
+    height: 263px;
     background-color: white;
     border-radius: 20px; 
 }
 
 .evms__info-card-small_container + .evms__info-card-small_container {
-    margin-left: 1rem;
+    margin-left: .5rem;
 }
 
 .evms__info-card-small_heading-box {
-    height: 120px;
+    height: 92px;
     background-color: blue;
     border-radius: 20px;
-    padding: 1rem;
+    padding:  .8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,24 +35,29 @@
 }
 
 .evms__info-card-small_heading-box_title h1 {
-    margin-left: 1rem;
-    opacity: .7;
+    margin-left: .5rem;
+    opacity: .8;
 }
 
 .evms__info-card-small_heading {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
+    margin-bottom: .3rem;
 }
 
 .evms__info-cars-small_amount {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    margin-left: .0rem;
 }
 
 .evms__info-card-small_lower-box {
-    padding: 2rem 1rem;
+    padding: 1.2rem .8rem;
 }
 
 .evms__info-card-small_lower-box_text:first-of-type {
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.3rem;
 }
 
+.evms__info-card-small_lower-box_text p {
+    /* color: blue; */
+}

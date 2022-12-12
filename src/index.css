@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 :root {
     --clr-blue: #563CFB;
     --clr-purple: #9747FF;
@@ -21,4 +20,14 @@ html {
 
 body {
     background-color: #F4F4F4;
+}
+
+.evms__icon-wrapper {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2); 
 }
