@@ -1,28 +1,37 @@
 import React from 'react'
 import './infoCardSmall.css';
 
-const InfoCardSmall = () => {
+// import  dollarSignIcon  from '../../images/dollarSignIcon.png';
+
+
+const InfoCardSmall = ({title, icon, titleValue, descOne, descOneValue, descTwo, descTwoValue, accentColor}) => {
+  const actColor = 'hsla(' + accentColor + ', 1.0)'
+  const boxShadowColor = 'hsla(' + accentColor + ', 0.35)'
+  const boxShadow = '0 4px 4px 0px ' +  boxShadowColor;
+
+  
   return (
     <div className='evms__info-card-small_container'>
-      <div className="evms__info-card-small_heading-box">
+      <div style={{background: actColor, boxShadow: boxShadow}} className="evms__info-card-small_heading-box">
         <div className="evms__info-card-small_heading-box_title">
-          <div className="evms__icon-wrapper">
-            <img src="" alt="" />
+          <div  className="evms__icon-wrapper">
+            <img src={icon} alt="icon" />
           </div>
-          <h1 className="evms__info-card-small_heading">Original Estimate Cost</h1>
+          <h1 className="evms__info-card-small_heading">{title}</h1>
         </div>
-        <p className="evms__info-cars-small_amount">$ 15,904.04</p>
+        <p className="evms__info-cars-small_amount">$ {titleValue}</p>
       </div>
       <div className="evms__info-card-small_lower-box">
         <div className="evms__info-card-small_lower-box_text">
-          <h2 className="evms__info-card-small_heading">Time Spent Cost</h2>
-          <p className="evms__info-cars-small_amount">$ 16,919.93</p>
+          <h2 className="evms__info-card-small_heading">{descOne}</h2>
+          <p style={{color: actColor}} className="evms__info-cars-small_amount">$ {descOneValue}</p>
         </div>
-     
-        <div className="evms__info-card-small_lower-box_text">
-            <h2 className="evms__info-card-small_heading">Remaining Estimate Cost</h2>
-            <p className="evms__info-cars-small_amount">$ 1,712.43</p>
-        </div>
+        {descTwo &&
+            <div className="evms__info-card-small_lower-box_text">
+                <h2 className="evms__info-card-small_heading">{descTwo}</h2>
+                <p style={{color: actColor}} className="evms__info-cars-small_amount">$ {descTwoValue}</p>
+            </div>
+        }
       </div>
     </div>
   )
