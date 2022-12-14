@@ -1,6 +1,6 @@
 .evms__info-card-large_container {
-    width: 366px;
-    height: 263px;
+    width: 382px;
+    height: 275px;
     background-color: white;
     border-radius: 20px; 
     margin-left: 1rem;
@@ -30,4 +30,29 @@
     width: 17px;
     opacity: .9;
     color: white;
+}
+
+.evms__info-card-large_lower-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    margin: 1.2rem 2rem;
+    /* place-items: center; */
+
+}
+
+.evms__info-card-large_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    margin-bottom: 1.3rem;
+}
+
+.evms__info-card-large_row h4  {
+    font-size: .8rem;
+    font-weight: 400;
+    color: blue;
+}
+
+.evms__info-card-large_row p {
+    font-size: .9rem;
 }

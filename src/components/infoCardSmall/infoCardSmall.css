@@ -7,14 +7,14 @@
 }
 
 .evms__info-card-small_container {
-    width: 200px;
-    height: 263px;
+    width: 197px;
+    height: 275px;
     background-color: white;
     border-radius: 20px; 
 }
 
 .evms__info-card-small_container + .evms__info-card-small_container {
-    margin-left: .5rem;
+    margin-left: 1.2rem;
 }
 
 .evms__info-card-small_heading-box {
