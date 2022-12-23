@@ -1,0 +1,63 @@
+.evms__icon_one {
+    display: block;
+    /* margin-right: .00rem; */
+    height: 18px;
+    width: 18px;
+    opacity: .9;
+}
+
+.evms__info-card-small_container {
+    width: 197px;
+    height: 275px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.evms__info-card-small_container + .evms__info-card-small_container {
+    margin-left: 1.2rem;
+}
+
+.evms__info-card-small_heading-box {
+    height: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    padding:  .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.evms__info-card-small_heading-box_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.evms__info-card-small_heading-box_title h1 {
+    margin-left: .5rem;
+    opacity: .8;
+}
+
+.evms__info-card-small_heading {
+    font-size: .8rem;
+    font-weight: 400;
+    margin-bottom: .3rem;
+}
+
+.evms__info-cars-small_amount {
+    font-size: 1.4rem;
+    margin-left: .0rem;
+}
+
+.evms__info-card-small_lower-box {
+    padding: 1.2rem .8rem;
+}
+
+.evms__info-card-small_lower-box_text:first-of-type {
+    margin-bottom: 2.3rem;
+}
+
+.evms__info-card-small_lower-box_text p {
+    /* color: blue; */
+}
