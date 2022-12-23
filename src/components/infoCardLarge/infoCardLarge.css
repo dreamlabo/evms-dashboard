@@ -21,7 +21,7 @@
 .evms__info-card-large_heading-box_title {
     font-size: .8rem;
     font-weight: 400;
-    margin-top: .5rem;
+    margin-top: .6rem;
     opacity: .9;
 }
 
@@ -35,10 +35,12 @@
 .evms__info-card-large_lower-container {
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; */
-    margin: 1.2rem 2rem;
+    margin: 1.6rem 2rem;
     /* place-items: center; */
 
 }
+
+
 
 .evms__info-card-large_row {
     display: grid;
@@ -54,5 +56,18 @@
 }
 
 .evms__info-card-large_row p {
-    font-size: .9rem;
+    font-size: .8rem;
+}
+
+.evms__info-card-large-indicator {
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ /* background-color: red; */
+ margin-right: .2rem;
+}
+
+.evms__info-card-large_indicator-container {
+    display: flex;
+    align-items: center;
 }
