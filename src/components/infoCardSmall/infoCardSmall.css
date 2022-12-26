@@ -8,7 +8,7 @@
 
 .evms__info-card-small_container {
     width: 197px;
-    height: 275px;
+    height: var(--card-height);
     background-color: white;
     border-radius: 20px; 
 }
