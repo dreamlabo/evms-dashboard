@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 
-import { NavBar, MainHeading, DashboardNavigation } from './components'
+import { NavBar, MainHeading, DashboardNavigation, SecondaryNavigation } from './components'
 import { CardContainer } from './containers';
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
         <MainHeading />
         <DashboardNavigation />
         <CardContainer />
+        <SecondaryNavigation />
 
     </div>
   )
