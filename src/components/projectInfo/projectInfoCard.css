@@ -1,0 +1,122 @@
+/* .evms__project-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .6rem;
+} */
+
+.evms__project-card {
+    background-color: white;
+    width: 100%;
+    border-radius: 9px;
+    display: grid;
+    padding: .5rem .9rem .5rem .5rem;
+    grid-template-columns: 335px 255px 1fr;
+}
+
+.evms__project-card_left-title {
+    display: flex;
+    align-items: center;
+}
+
+.evms__project-card_left-title h4 {
+    margin-left: .7rem;
+    margin-right: 1rem;
+    width: 123px;
+}
+
+.evms__project-card h4 {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.evms__project-card_icon {
+    background-color: var(--clr-blue);
+    border-radius: 100%;
+}
+
+
+.evms__project-card_icon-text {
+    font-size: .9rem;
+    color: white;
+    padding: .4em;
+}
+
+.evms__project-card_icon-status {
+    font-size: .8rem;
+    padding: .4rem .8rem;
+    background-color: var(--clr-blue);
+    border-radius: 15px;
+    color: white;
+}
+
+
+.evms__project-card_inner-card {
+    background-color: #F4F4F4;
+    border-radius: 13px;
+    padding: .4rem .7rem;
+    justify-self: center;
+    margin-left: 2.0rem;
+    
+  
+}
+
+.evms__project-card_inner-card h5 {
+    color: var(--clr-blue);
+    font-weight: 400;
+    white-space: nowrap;
+}
+.evms__project-card_inner-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.evms__project-card_inner-card p {
+    font-size: .8rem;
+}
+
+/* .evms__project-card_inner-card p {
+   font-size:  .8rem;
+} */
+
+.evms__project-card_inner-card + .evms__project-card_inner-card {
+    margin-left: 4.3rem;
+}
+
+.evms__project-card_color-status {
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 100%;
+    margin-right: .2rem;
+    margin-bottom: 0rem;
+}
+
+/* .evms__project-card_inner-card:first-of-type {
+  margin-right: 30px;
+} */
+
+.evms__project-card_hours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .93rem;
+    margin-left: 3.1rem;
+}
+
+.evms__project-card_inner-cards {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: .5rem;
+}
+
+.evms__project-card_inner-hours h5 {
+    color: var(--clr-blue);
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.evms__project-card_inner-hours p {
+    font-size: .8rem;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 
 import { NavBar, MainHeading, DashboardNavigation, SecondaryNavigation } from './components'
-import { CardContainer } from './containers';
+import { CardContainer, ProjectInfoContainer } from './containers';
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <DashboardNavigation />
         <CardContainer />
         <SecondaryNavigation />
+        <ProjectInfoContainer />
 
     </div>
   )

@@ -4,3 +4,4 @@ export { default as DashboardNavigation } from './dashboardNavigation/DashboardN
 export { default as InfoCardSmall } from './infoCardSmall/InfoCardSmall';
 export { default as InfoCardLarge } from './infoCardLarge/InfoCardLarge';
 export { default as SecondaryNavigation } from './secondaryNavigation/SecondaryNavigation';
+export { default as ProjectInfoCard } from './projectInfo/ProjectInfoCard';
