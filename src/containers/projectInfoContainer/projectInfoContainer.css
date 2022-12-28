@@ -1,0 +1,21 @@
+.evms__project-info_wrapper {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.evms__project-info_container {
+    max-width: 1700px;
+    width: calc(100% - 1rem);
+    margin-top: 1.9rem;
+}
+
+.evms__project-info_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  0 2rem;
+    gap: .3rem;
+}
