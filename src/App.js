@@ -11,7 +11,6 @@ const App = () => {
         <MainHeading />
         <DashboardNavigation />
         <CardContainer />
-        <SecondaryNavigation />
         <ProjectInfoContainer />
 
     </div>
