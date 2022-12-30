@@ -1,6 +1,5 @@
 .evms__icon_one {
     display: block;
-    /* margin-right: .00rem; */
     height: 18px;
     width: 18px;
     opacity: .9;
@@ -13,9 +12,9 @@
     border-radius: 20px; 
 }
 
-.evms__info-card-small_container + .evms__info-card-small_container {
-    /* margin-left: 1.2rem; */
-}
+/* .evms__info-card-small_container + .evms__info-card-small_container {
+    margin-left: 1.2rem;
+} */
 
 .evms__info-card-small_heading-box {
     height: 92px;

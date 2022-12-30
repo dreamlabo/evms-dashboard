@@ -3,7 +3,6 @@
     height: var(--card-height);
     background-color: white;
     border-radius: 20px; 
-    /* margin-left: 1rem; */
 }
 
 .evms__info-card-large_heading-box {
@@ -33,14 +32,8 @@
 }
 
 .evms__info-card-large_lower-container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; */
     margin: 1.6rem 2rem;
-    /* place-items: center; */
-
 }
-
-
 
 .evms__info-card-large_row {
     display: grid;
@@ -60,11 +53,10 @@
 }
 
 .evms__info-card-large-indicator {
- width: 8px;
- height: 8px;
- border-radius: 50%;
- /* background-color: red; */
- margin-right: .2rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: .2rem;
 }
 
 .evms__info-card-large_indicator-container {

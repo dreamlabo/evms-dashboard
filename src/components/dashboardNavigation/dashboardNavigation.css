@@ -2,28 +2,22 @@
     display: flex;
     justify-content: center; 
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .evms__dashNav_container {
     max-width: var(--max-width);
     width: calc(100% - 1rem);
     margin-top: 1.4rem;
-    /* border: 1px solid blue; */
 }
 
 .evms__dashNav {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0 2rem; */
     justify-content: flex-start;
-    /* align-items: center; */
     margin:  0 2rem;
-    /* width: calc(100% - 4rem); */
-    /* border: 1px solid red; */
-    /* border-bottom: 2px solid gray; */
     position: relative;
 }
+
 .evms__dashNav::after {
     content: "";
     position: absolute;
@@ -36,13 +30,10 @@
     opacity: .2;
 }
 
-
 .evms__dashNav_links {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    /* border-bottom: 1px solid gray; */
-   
+    align-items: center;  
 }
 
 .evms__dashNav_link--active {
