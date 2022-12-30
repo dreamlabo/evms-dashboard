@@ -15,7 +15,7 @@ const ProjectInfoContainer = () => {
   const [indicatorColor, setIndicatorColor] = useState('red');
   const [textColor, setTextColor] = useState('white');
 
-  const infoCards = projectArray.map (info => {
+  const infoCards = projectArray.map ((info, index) => {
     return (
       <ProjectInfoCard title={info.projectname}
                         status={info.status}
@@ -25,6 +25,7 @@ const ProjectInfoContainer = () => {
                         timeSpent={info.timeSpent}
                         remainingEstimate={info.remainingEstimate}
                         projectInitials={info.projectInitials}
+                        key={index + '_' + info.projectname}
                         />
     )
   })
@@ -50,10 +51,10 @@ const ProjectInfoContainer = () => {
     } 
   }
 
-  const renderNavLinks = secondaryNavLinks.map(link => {
-    if (link === whichProjectListToDisplay){
+  const renderNavLinks = secondaryNavLinks.map((link, index) => {
+    if (link === whichProjectListToDisplay) {
       return (
-        <li className='evms__secondary-Nav_link evms__secondary-Nav_link--active'>
+        <li key={index + '_' + link} className='evms__secondary-Nav_link evms__secondary-Nav_link--active'>
           {link}
             <div style={{ backgroundColor: indicatorColor, color:textColor }}
               className='evms__secondary-Nav_link-quantity'>{projectArray.length}
@@ -64,6 +65,7 @@ const ProjectInfoContainer = () => {
     else {
       return (
         <li onClick={() => changeNavLink(link)}
+          key={index + '_' + link}
           className='evms__secondary-Nav_link'>
             {link}
             <div style={{ backgroundColor: 'inherit', color:textColor }}

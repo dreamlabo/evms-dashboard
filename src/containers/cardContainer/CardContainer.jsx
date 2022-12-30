@@ -5,7 +5,7 @@ import dataInfoCardSmall from '../../projectData/InfoCardSmallData.js'
 import { InfoCardLarge, InfoCardSmall } from '../../components'
 
 const CardContainer = () => {
-  const renderSmallCards = dataInfoCardSmall.map(info => {
+  const renderSmallCards = dataInfoCardSmall.map((info, index) => {
     return (
       <InfoCardSmall title={info.cardTitle}
                       icon={dollarSignIcon} 
@@ -14,7 +14,8 @@ const CardContainer = () => {
                       descOneValue={info.headingOneValue} 
                       descTwo={info.headingTwo} 
                       descTwoValue={info.headingTwoValue} 
-                      accentColor={info.accentColor}/>
+                      accentColor={info.accentColor}
+                      key={index + '_' + info.cardTitle}/>
     )
   })
 
