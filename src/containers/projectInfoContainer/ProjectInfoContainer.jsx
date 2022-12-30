@@ -52,22 +52,29 @@ const ProjectInfoContainer = () => {
     } 
   }
 
-
   const renderNavLinks = secondaryNavLinks.map(link => {
-
     if (link === whichProjectListToDisplay){
       return (
-        <li className='evms__secondary-Nav_link evms__secondary-Nav_link--active'>{link}<div style={{ backgroundColor: indicatorColor, color:textColor }}className='evms__secondary-Nav_link-quantity'>{projectArray.length}</div></li>
+        <li className='evms__secondary-Nav_link evms__secondary-Nav_link--active'>
+          {link}
+            <div style={{ backgroundColor: indicatorColor, color:textColor }}
+              className='evms__secondary-Nav_link-quantity'>{projectArray.length}
+            </div>
+        </li>
       )
     }
     else {
       return (
-        <li onClick={() => changeNavLink(link)}className='evms__secondary-Nav_link'>{link}</li>
+        <li onClick={() => changeNavLink(link)}
+          className='evms__secondary-Nav_link'>
+            {link}
+            <div style={{ backgroundColor: 'inherit', color:textColor }}
+              className='evms__secondary-Nav_link-quantity'>
+            </div>
+        </li>
       )
     }
   })
-
-
 
   return (
     <>
