@@ -26,7 +26,6 @@ const ProjectInfoCard = ({title, status, spi, cpi,
   
   return (
     <div className='evms__project-card'>
-
       <div className='evms__project-card_left-title'>
         <div className='evms__project-card_icon'>
           <p className='evms__project-card_icon-text'>
@@ -44,7 +43,6 @@ const ProjectInfoCard = ({title, status, spi, cpi,
             <p>{spi}</p>
           </div>
         </div>
-
         <div className='evms__project-card_inner-card'>
           <h5>CPI</h5>
           <div className='evms__project-card_inner-container'>
@@ -52,9 +50,7 @@ const ProjectInfoCard = ({title, status, spi, cpi,
             <p>{cpi}</p>
           </div>
         </div>
-
       </div>
-
       <div className='evms__project-card_hours'>
         <div style={{backgroundColor: 'inherit'}} className='evms__project-card_inner-hours'>
           <h5>Original Estimate</h5>

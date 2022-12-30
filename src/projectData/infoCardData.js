@@ -97,5 +97,3 @@ export const OverperformingInfoCardData = [
         'remainingEstimate': 151.89,
     }
 ]
-
-// export default UnderperformingInfoCardData;

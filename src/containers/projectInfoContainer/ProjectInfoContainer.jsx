@@ -3,9 +3,7 @@ import './projectInfoContainer.css'
 import '../../components/secondaryNavigation/secondaryNavigation.css';
 import {secondaryNavLinks} from '../../projectData/secondaryNavigationLinks.js';
 import { UnderperformingInfoCardData, AtRiskInfoCardData, OverperformingInfoCardData } from '../../projectData/infoCardData.js';
-
 import { ProjectInfoCard, SecondaryNavigation } from '../../components'
-
 
 const ProjectInfoContainer = () => {
   const OVERPERFORMING = 'Overperforming Projects';

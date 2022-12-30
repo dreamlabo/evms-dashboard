@@ -12,7 +12,6 @@ const App = () => {
         <DashboardNavigation />
         <CardContainer />
         <ProjectInfoContainer />
-
     </div>
   )
 }

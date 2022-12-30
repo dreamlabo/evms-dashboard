@@ -25,10 +25,9 @@ const NavBar = () => {
             <div className='evms__navbar_search-bar'>
               <input type="search" className='evms__navbar_search-input' placeholder='Search i.e company or project name '></input>
               <button className="evms__navbar_search-input_button">
-                <CiSearch  className='evms__navbar_search-icon'/>
+                <CiSearch className='evms__navbar_search-icon'/>
               </button>
             </div>
-       
             <div className="evms__navbar_last-update_container">
               <div className='evms__navbar_last-update_circle'><MdAccessTime className="evms__navbar_clock-icon"/></div>
               <div className='evms__navbar_last-update_text'>
@@ -38,13 +37,8 @@ const NavBar = () => {
             </div>
             <div className='evms__navbar_tools-container'>
               <div className='evms__navbar_tools'> <img src={Add} alt="add" /></div>
-             
               <div className='evms__navbar_tools  gear'><img src={Gear} alt="gear" /></div>
             </div>
-          
-      
-            
-           
         </div>
       </div>
     </div>

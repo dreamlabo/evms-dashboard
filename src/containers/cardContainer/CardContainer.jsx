@@ -1,14 +1,10 @@
 import React from 'react'
 import './cardContainer.css'
-
 import  dollarSignIcon from '../../images/dollarSignIcon.png';
 import dataInfoCardSmall from '../../projectData/InfoCardSmallData.js'
-
 import { InfoCardLarge, InfoCardSmall } from '../../components'
 
-
 const CardContainer = () => {
-
   const renderSmallCards = dataInfoCardSmall.map(info => {
     return (
       <InfoCardSmall title={info.cardTitle}

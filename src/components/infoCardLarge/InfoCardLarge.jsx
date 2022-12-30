@@ -74,10 +74,7 @@ const InfoCardLarge = ({title, accentColor}) => {
             <p>$ 758.00</p>
           </div>
         </div>
-   
-
       </div>
-
     </div>
   )
 }

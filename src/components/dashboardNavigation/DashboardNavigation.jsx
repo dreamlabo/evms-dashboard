@@ -5,7 +5,6 @@ const DashboardNavigation = () => {
   return (
     <div className='evms__dashNav_wrapper'>
         <div className="evms__dashNav_container">
-            {/* <div className="evms__dashNav"> */}
                 <nav className="evms__dashNav">
                     <ul className='evms__dashNav_links'>
                         <li className='evms__dashNav_link'>Overview</li>
@@ -18,7 +17,6 @@ const DashboardNavigation = () => {
                         <li className='evms__dashNav_link'>Warnings</li>
                     </ul>
                 </nav>
-            {/* </div> */}
         </div>
     </div>
   )

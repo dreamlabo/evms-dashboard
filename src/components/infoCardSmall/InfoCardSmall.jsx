@@ -3,14 +3,10 @@ import './infoCardSmall.css';
 import { renderValues } from '../../hooks/renderValues.js'
 
 
-// import  dollarSignIcon  from '../../images/dollarSignIcon.png';
-
-
 const InfoCardSmall = ({title, icon, titleValue, descOne, descOneValue, descTwo, descTwoValue, accentColor}) => {
   const actColor = 'hsla(' + accentColor + ', 1.0)'
   const boxShadowColor = 'hsla(' + accentColor + ', 0.6)'
   const boxShadow = '0 4px 4px 0px ' +  boxShadowColor;
-  
   
   return (
     <div className='evms__info-card-small_container'>
