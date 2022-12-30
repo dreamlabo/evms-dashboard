@@ -47,13 +47,16 @@
     list-style-type: none;
     padding-bottom: .3rem;
     font-size: .75rem; 
+    display: flex;
+    align-items: center;
     /* cursor: pointer; */
 }
+
 
 .evms__secondary-Nav_link--active {
     border-bottom: 2px solid var(--clr-blue);
     z-index: 10;
-    display: flex;
+    /* display: flex; */
 }
 
 .evms__secondary-Nav_link:not(.evms__secondary-Nav_link--active):hover {
@@ -66,8 +69,9 @@
 }
 
 .evms__secondary-Nav_link-quantity {
-    width: 1.5rem;
+    /* width: 1.5rem; */
     margin-left: .5rem;
+    padding: .15rem .6rem .1rem .55rem;
     border-radius: 10px;
     background-color: var(--clr-blue);
     color: white;
