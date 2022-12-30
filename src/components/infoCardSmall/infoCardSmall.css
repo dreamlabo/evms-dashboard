@@ -14,7 +14,7 @@
 }
 
 .evms__info-card-small_container + .evms__info-card-small_container {
-    margin-left: 1.2rem;
+    /* margin-left: 1.2rem; */
 }
 
 .evms__info-card-small_heading-box {

@@ -3,7 +3,7 @@
     height: var(--card-height);
     background-color: white;
     border-radius: 20px; 
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .evms__info-card-large_heading-box {

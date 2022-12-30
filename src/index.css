@@ -12,6 +12,7 @@
     --bkgd-clr-white: #fff;
 
     --card-height: 273px;
+    --max-width: 1500px;
 }
 
 html {

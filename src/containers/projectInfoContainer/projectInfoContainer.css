@@ -5,7 +5,7 @@
 }
 
 .evms__project-info_container {
-    max-width: 1700px;
+    max-width: var(--max-width);
     width: calc(100% - 1rem);
     margin-top: 1.9rem;
 }
